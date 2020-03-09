@@ -62,7 +62,7 @@ public class StrategyPatternDemo {
 
 	public static void main(String[] args)throws IOException {
 		
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));  
+	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));  
         System.out.print("Enter the first value: ");  
         float val1=Float.parseFloat(br.readLine());  
         System.out.print("Enter the second value: ");  
