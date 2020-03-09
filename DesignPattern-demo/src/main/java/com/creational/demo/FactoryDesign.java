@@ -9,10 +9,7 @@ abstract class Car{
 	protected double cost;
 	abstract void getCost();  
 
-	/**
-	 * 
-	 * @param units
-	 */
+	
 	public void calculateCost(){  
 		System.out.println(cost+tax);  
 	}  
